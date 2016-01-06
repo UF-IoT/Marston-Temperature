@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="232" id="zkV-Tt-Tmo"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UF-IoT-Letters" translatesAutoresizingMaskIntoConstraints="NO" id="60V-nd-AAQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gator-IoT-Letters" translatesAutoresizingMaskIntoConstraints="NO" id="60V-nd-AAQ">
                                 <rect key="frame" x="197" y="482" width="206" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="206" id="3HS-Kx-uNi"/>
@@ -36,7 +36,14 @@
                                     <rect key="frame" x="164" y="572" width="274" height="208"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" 70˚" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHD-66-w09">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="EAQ-ml-n0Q">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="EQu-NB-iQ8"/>
+                                    <constraint firstAttribute="width" constant="20" id="cIf-jr-SfS"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHD-66-w09">
                                 <rect key="frame" x="222" y="223" width="157" height="154"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="74"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,6 +63,8 @@
                         <constraints>
                             <constraint firstItem="EYT-OG-en0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FKT-Db-qor"/>
                             <constraint firstItem="60V-nd-AAQ" firstAttribute="centerX" secondItem="EYT-OG-en0" secondAttribute="centerX" id="MDz-SG-ds2"/>
+                            <constraint firstItem="EAQ-ml-n0Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Skk-AP-u7X"/>
+                            <constraint firstItem="EAQ-ml-n0Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wwy-Pe-cmd"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="60V-nd-AAQ" secondAttribute="bottom" constant="8" id="aFz-xg-qyp"/>
                             <constraint firstItem="EYT-OG-en0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gJH-L4-sq8"/>
                             <constraint firstItem="mHD-66-w09" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i09-Tj-gmW"/>
@@ -63,6 +72,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activity" destination="EAQ-ml-n0Q" id="nsC-Cv-3sy"/>
                         <outlet property="temp" destination="mHD-66-w09" id="bYf-jr-87P"/>
                     </connections>
                 </viewController>
@@ -73,6 +83,6 @@
     </scenes>
     <resources>
         <image name="Cirlce.png" width="500" height="500"/>
-        <image name="UF-IoT-Letters" width="1920" height="1080"/>
+        <image name="Gator-IoT-Letters" width="1920" height="1080"/>
     </resources>
 </document>

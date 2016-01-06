@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Temp/ViewController.swift"
-            timestampString = "473407367.362143"
+            timestampString = "473713753.694843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
@@ -89,11 +89,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Temp/ViewController.swift"
-            timestampString = "473407428.023224"
+            timestampString = "473724753.169008"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Temp/ViewController.swift"
+            timestampString = "473724753.169008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "updateTemp()"
             landmarkType = "5">
          </BreakpointContent>
@@ -105,11 +121,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Temp/ViewController.swift"
-            timestampString = "473407553.378032"
+            timestampString = "473727198.008333"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
